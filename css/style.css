@@ -1,0 +1,626 @@
+body, header, nav, main, footer, h1, div, img, ul {
+margin: 0;
+padding: 0;
+border: 0;
+   }
+
+header {
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: palevioletred;
+width: 95%; 
+}
+
+body {
+background-image: url(../img/Background\ 1.jpeg);
+}
+
+img {
+max-width: 100%;
+display: block;
+}
+
+
+/*Mobile view*/
+.mobile {
+    display: block;
+   }
+
+.tablet-desktop {
+    display: none;
+   } 
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+#Contact{
+text-align: center;
+}
+
+main {
+clear: left; 
+ 
+}
+
+.tel-link {
+    background-color: pink;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+   }
+   
+   .tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+   }
+/* ------------------------- */
+   
+
+main {
+clear: left;
+background-color: #fff;
+padding: 2%;
+font-size: 1.15em;
+}
+
+.round {
+    border-radius: 8px;
+}
+
+.action {
+    font-size: 1.35em;
+    color: red;
+    font-weight: bold;
+}
+
+.discount {
+    font-size: 1em;
+    color: rebeccapurple;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.covid {
+    font-size: 1.5em;
+    color: black;
+}
+
+.mobile-covid {
+    color: yellow;
+}
+
+.h4 {
+    color: #ff0099;
+}
+
+nav {
+    color: black;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+  }
+nav ul{
+    text-align: center;
+    padding-left: 15%;
+  }
+nav .mainMenu {
+    display: flex;
+    list-style: none;
+  }
+nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: purple;
+    font-size: 18px;
+    transition: 0.2s ease;
+  }
+nav .mainMenu li a:hover {
+    background: pink;
+  }
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+nav .mainMenu .closeMenu,
+  .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+nav .logo {
+    margin: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+@media (max-width: 800px) {
+    nav .mainMenu {
+      height: 100vh;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: rgb(0, 0, 0);
+      transition: top 1s ease 0s;
+      display: none;
+    }
+    nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    nav .openMenu {
+      display: block;
+    }
+    nav .mainMenu li a:hover {
+      background: none;
+      color: pink;
+    }
+    .icons i {
+      display: inline-block;
+      padding: 12px;
+    }
+  }
+  
+
+@media screen and (min-width: 630px) {
+    .tablet-desktop, #menu-links {
+        display: block;
+       }
+       
+       .mobile, mobile-nav ,.mobile-nav a.menu-icon {
+       display: none;} 
+    
+       
+    header {
+    position: static;
+    padding-bottom: 2%;
+    }
+    
+    
+    nav {
+        padding: 1%;
+        margin-bottom: 1%;
+       }
+       
+       nav ul{
+        list-style-type: none;
+        text-align: center;
+       }
+
+    nav li {
+        font-size: 1.5em;
+        font-family: 'Francois One', sans-serif; 
+        border-top: none;
+        display: inline-block;
+        border-right: 1px solid pin;
+        }
+       
+        nav li:last-child {
+        border-right: none;
+        }
+       
+        nav li a {
+        padding: 0.1em 0.75em;
+        display: block;
+        color: black;
+        text-decoration: none;
+        }    
+    }
+    
+@media screen and (min-width: 769px) {
+/* Desktop Viewport: Style rule for header */
+    header {
+    width: 25%;
+    float: left;
+    padding-bottom: 0;
+    }
+    
+        /* Desktop Viewport: Style rules for nav area */
+    nav {
+        float: right;
+        width: 70%;
+        margin: 4em 1em 0 0;
+        } 
+    
+    nav ul {
+        text-align: right;
+            }
+           
+    nav li {
+        border: none;
+        }
+           
+    nav li a {
+        padding: 0.5em 1em;
+        }
+    
+    main {
+        clear: left;
+        }
+           
+    main h1 {
+        font-size: 1.8em;
+        }
+    
+    }
+
+
+main {
+    clear:left;
+    background-color: pink;
+    padding: 7%;
+    font-size: 1.25em;
+    background-image: url(../img/background\ 3.jpeg);
+    background-size: cover;
+    }
+
+li {
+    list-style-type: none;
+}
+
+
+#flowermain {
+background-image: url(../img/background\ 2.jpeg);
+background-size: cover;
+}
+
+
+#roses, #pinkroses, #tulips, #peony{
+width: 29%;
+float: none;
+margin: 0 2%;
+} 
+
+#Contact {
+text-align: center;
+padding-bottom: 0cm;
+background-image: url(../img/background\ 4.jpeg);
+background-size: cover;
+}
+
+#Contact a{
+color: palevioletred;
+text-decoration: none;
+}
+
+
+footer p {
+font-size: 1em;
+text-align: center;
+color: black;
+padding: 0 1em;
+}
+
+footer p a {
+color: black; 
+text-decoration: none;
+font-size: medium;
+} 
+
+
+.image-grid {
+    --gap: 16px;
+    --num-cols: 4;
+    --row-height: 300px;
+  
+    box-sizing: border-box;
+    padding: var(--gap);
+  
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+  }
+  
+  .image-grid > img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  
+  .image-grid-col-2 {
+    grid-column: span 2;
+  }
+  
+  .image-grid-row-2 {
+    grid-row: span 2;
+  }
+  
+  /* Anything udner 1024px */
+  @media screen and (max-width: 1024px) {
+    .image-grid {
+      --num-cols: 2;
+      --row-height: 200px;
+    }
+  }
+
+  body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  } 
+  
+  /* Style rules for body and  images */
+  body {
+     background-color: white;
+  }
+  
+  img  {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Style rules for mobile viewport */
+  
+  /* Style rules for header */
+  header {
+    top: 0;
+    height: 190px;
+  }
+  
+  header img {
+    margin: 0 auto;
+  }
+  
+  /* Style rules for navigation area */
+  nav {
+    padding: 1%;
+    margin-bottom: 1%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav li {
+    font-size: 1.5em;
+    font-family: 'Francois One', sans-serif;
+    border-top: 1px solid #fff; 
+  }
+  
+  nav li:first-child {
+      border-top: none;
+  }
+  
+  nav li a {
+    display: block;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;		
+  }
+  
+  /* Show mobile class, hide tablet-desktop class*/
+  .mobile {
+    display: block;
+  }
+  
+  .tablet-desktop {
+    display: none;
+  }
+  
+  /* Style rules for main content */
+  main {
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .mobile h3 {
+    text-shadow: 5px 5px 8px #ccc;  
+  }	
+  
+  .tel-link {
+    background-image: url(../img/Background\ 5.jpeg);
+      background-size: cover;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .tel-link a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+  }
+  
+  .action {
+    font-size: 1.35em;
+    color: red;
+    font-weight: bold;
+    text-shadow: 5px 5px 8px #ccc; /* EXTRA */
+  }
+  
+  
+  .round {
+    border-radius: 8px;
+  }
+  
+  #contact {
+    text-align: center;
+  }
+  
+  #form {
+    margin-top: 2%;
+    background-image: url(../img/background\ 4.jpeg);
+      background-size: cover;
+    padding: 2%;
+     }
+     
+     #form h2 {
+    text-align: center;
+     }
+     
+     /* Style rules for form elements */
+     fieldset, input, select, textarea {
+    margin-bottom: 2%;
+     }
+     
+     fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+    }
+     
+     label {
+    display: block;
+    padding-top: 3%;
+     }
+     
+     form #submit {
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: pink;
+    font-size: 1em;
+    border-radius: 10px;
+     }
+  
+  
+  /* Style rules for footer content */
+  footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: black;
+    padding: 0 1em;
+  }
+  
+  footer p a{
+    color: black;
+    text-decoration: none;
+    text-align: left;
+  }
+  
+  /* Media Query for Tablet Viewport */  
+  @media screen and (min-width: 630px){ 
+    
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */	
+    .tablet-desktop{
+      display: block;   
+    }
+  
+    .mobile {   
+      display: none;   
+    }
+    
+    /* Tablet Viewport: Style rule for header */
+    header {
+      padding-bottom: 2%;
+    }
+    
+    /* Tablet Viewport: Style rules for nav area */
+    nav li {  
+      display: inline-block; 
+       border-right:  1px solid #fff;
+    }
+    
+    nav li:last-child {
+      border-right: none;
+    }
+    
+    nav li a {
+      padding: 0.1em 0.75em;	
+    }
+    
+    /* Tablet Viewport: Style rules for main content area */
+    main ul {
+      margin: 0 0 4% 10%;
+    }
+      
+  
+    /* Tablet Viewport: Style rule for form element */
+    form {
+    width: 70%;
+    margin: 0 auto;
+    } 
+    
+    .tel-num { /*unuse in current prac*/
+      font-size: 1.25em;
+    }
+    
+    .map { /*unuse in current prac*/
+      width: 600px;
+      height: 450px;
+    }
+    
+  }/* Media Query for Tablet Viewport closing brace */  
+  
+  /* Media Query for Desktop Viewport */
+  @media screen and (min-width: 1015px), print { /* print is extra */
+  
+    /* Desktop Viewport: Style rule for header */
+    header {
+      width: 25%;
+      float: left;
+      padding-bottom: 0;
+    }
+  
+    /* Desktop Viewport: Style rules for nav area */	
+    nav {
+      float: right;  
+      width: 70%;
+      margin: 4em 1em  0 0;
+    }
+    
+    nav ul {
+      text-align: right; 
+    }
+    
+    nav li {
+      border: none;
+    }
+    
+    nav li a {
+      padding: 0.5em 1em;
+    }
+  
+     nav li a:hover { /* extra */
+       background-color: #fff; 
+    }		 
+    
+    /* Desktop Viewport: Style rules for main content */	
+    main {
+      clear: left;
+    }
+    
+    main h1 {
+      font-size: 1.8em;
+      
+    }
+    
+    /* Desktop Viewport: Style rules for form elements */
+    form {
+    width: auto;
+      background-image: url(../img/Background\ 5.jpeg);
+      background-size: cover;
+    }
+    
+    .form-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    }
+    
+    .btn {
+    grid-column: 1 / span 3;
+    } 
+  }
